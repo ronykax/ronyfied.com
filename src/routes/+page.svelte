@@ -33,7 +33,7 @@
 </script>
 
 <div class="flex justify-center p-3 leading-loose sm:py-20">
-  <div class="flex flex-col w-full p-6 bg-black rounded-lg bg-opacity-45 sm:w-3/4 ring-white ring-opacity-25 ring-1">
+  <div class="flex flex-col w-full p-6 bg-black rounded-lg bg-opacity-50 sm:w-3/4 ring-white ring-opacity-25 ring-1">
     <div class="flex flex-col gap-4 sm:flex-row sm:justify-between">
       <div class="flex items-center gap-4">
         <!-- svelte-ignore a11y-img-redundant-alt -->
