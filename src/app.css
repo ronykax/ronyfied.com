@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply text-white;
+  transition: all 0.1s ease-in-out;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  /* @apply bg-blackish; */
+  background-image: url("bg.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
