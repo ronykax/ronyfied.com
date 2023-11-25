@@ -9,8 +9,8 @@
 }
 
 body {
-  /* @apply bg-blackish; */
-  background-image: url("bg.jpg");
+  @apply bg-blackish;
+  background-image: url("bg.png");
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
