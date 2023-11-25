@@ -55,7 +55,7 @@
     </div>
     <a href="/">
       <div class="px-3 py-1 mt-6 rounded-md bg-green w-fit ring-white ring-1 ring-opacity-25 bg-opacity-15 hover:ring-opacity-50">
-        <p class="text-white text-opacity-80"><span class="mr-2 text-sm animate-pulse">🟢</span>Currently online on Discord</p>
+        <a href="https://discord.com/users/791222882499690519" class="text-white text-opacity-80"><span class="mr-2 text-sm animate-pulse">🟢</span>Currently online on Discord</a>
       </div>
     </a>
     <div class="mt-6">
@@ -84,7 +84,7 @@
     </div>
     <div class="flex flex-col gap-4 mt-10 text-center">
       <h1 class="text-2xl italic leading-normal">"{testimonial.content}"</h1>
-      <p class="text-white text-opacity-80">- <a class="text-white underline text-opacity-80 hover:text-opacity-100 underline-offset-4 decoration-1" href="/">{testimonial.author.name}</a>, {testimonial.author.occupation}</p>
+      <p class="text-white text-opacity-80">- <a class="text-white underline text-opacity-80 hover:text-opacity-100 underline-offset-4 decoration-1" href="{testimonial.author.link}">{testimonial.author.name}</a>, {testimonial.author.occupation}</p>
     </div>
   </div>
 </div>
